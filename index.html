@@ -30,29 +30,29 @@
 			<div class="container">
 				<!-- navigation toggle button  -->
 				<button class="navbar-toggler navbar-toggler-right" id="hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    				<span class="navbar-toggler-icon"></span>
-  				</button>
+				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
 				<!-- nabar logo and brand name -->
-				<div class="fa fa-grav header-logo" >
+				<div class="fa fa-grav header-logo">
 					<a href="http://localhost:8002/">
-					<img class="hinhlogo" src="src/assets/images/logos/MU.png">
-					<!-- <p class="top-brand-name" style="font-size: 20px">BuQuMi</p> -->
-					<!-- <a class="navbar-brand" href="#">
+						<img class="hinhlogo" src="src/assets/images/logos/MU.png">
+						<!-- <p class="top-brand-name" style="font-size: 20px">BuQuMi</p> -->
+						<!-- <a class="navbar-brand" href="#">
 						<!-- <i class="fa fa-grav header-logo" ></i> -->
-						
-					<!-- </a> --> 
-				</a>
+
+						<!-- </a> -->
+					</a>
 				</div>
-				
+
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto" id="test">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          					   Shop
-         					</a>
+								Shop
+							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="#">Clothes</a>
 								<a class="dropdown-item" href="#">Tickets</a>
@@ -137,8 +137,8 @@
 			</div>
 			<!-- ./left-pane-->
 
-			<!-- right-pane -->
-			<!-- <div class="right-panel">
+		<!-- right-pane -->
+		<!-- <div class="right-panel">
 				<div class="icon-cube">
 					<div class="cube-slider">
 						<h4>Nepalese Cuisine</h4>
@@ -185,7 +185,7 @@
 				<article class="col-md-4">
 					<div class="package-wrapper">
 						<div class="card package-card">
-							<img src="src/assets/images/Clothes/000053.JPG" alt="" class="card-img-top">
+							<img src="src/assets/images/Clothes/000053.jpg" alt="" class="card-img-top">
 							<h5 class="package-card-heading">Cỏ Mỹ</h5>
 							<h4 class="package-price">$99</h4>
 							<ul class="package-menu">
@@ -205,7 +205,7 @@
 				<article class="col-md-4">
 					<div class="package-wrapper">
 						<div class="card package-card">
-							<img src="src/assets/images/Clothes/000054.JPG" alt="" class="card-img-top">
+							<img src="src/assets/images/Clothes/000054.jpg" alt="" class="card-img-top">
 							<h5 class="package-card-heading">Cỏ Cam</h5>
 							<h4 class="package-price">$199</h4>
 							<ul class="package-menu">
@@ -224,7 +224,7 @@
 				<article class="col-md-4">
 					<div class="package-wrapper">
 						<div class="card package-card">
-							<img src="src/assets/images/Clothes/000055.JPG" alt="" class="card-img-top">
+							<img src="src/assets/images/Clothes/000055.jpg" alt="" class="card-img-top">
 							<h5 class="package-card-heading">Cỏ Việt</h5>
 							<h4 class="package-price">$9.9</h4>
 							<ul class="package-menu">
@@ -248,16 +248,12 @@
 		<!-- thins-to-do section-->
 		<section id="things-to-do">
 			<h3>Manchester United</h3>
-			<p>Câu lạc bộ bóng đá Manchester United là một câu lạc bộ bóng đá chuyên nghiệp có trụ sở tại Old Trafford, Greater Machester, Anh. 
-				Câu lạc bộ đang chơi tại Giải bóng đá Ngoại hạng Anh, giải đấu hàng đầu trong hệ thống bóng đá Anh.</p>
+			<p>Câu lạc bộ bóng đá Manchester United là một câu lạc bộ bóng đá chuyên nghiệp có trụ sở tại Old Trafford, Greater Machester,
+				Anh. Câu lạc bộ đang chơi tại Giải bóng đá Ngoại hạng Anh, giải đấu hàng đầu trong hệ thống bóng đá Anh.</p>
 			<div class="row" id="vue-app">
 				<!-- <the-cau-thu v-bind:playerinfo="players"></the-cau-thu> -->
 
-				<the-bai-bao 
-					v-for = "dataObj in NYTimesData"
-					v-bind:imagininfo = "dataObj"
-					v-bind:key = "dataObj.id"
-				></the-bai-bao>
+				<the-bai-bao v-for="dataObj in NYTimesData" v-bind:imagininfo="dataObj" v-bind:key="dataObj.id"></the-bai-bao>
 
 				<!-- <the-cau-thu 
 					v-for="player in players"
@@ -352,20 +348,19 @@
 		<!-- event section-->
 		<section id="events">
 			<h3>Phú Sơn</h3>
-			<p>Phú Sơn là một xã thuộc huyện Lâm Hà, tỉnh Lâm Đồng, Việt Nam. Xã Phú Sơn có diện tích 175,2 km², 
-				dân số năm 1999 là 7005 người, mật độ dân số đạt 40 người/km²:
+			<p>Phú Sơn là một xã thuộc huyện Lâm Hà, tỉnh Lâm Đồng, Việt Nam. Xã Phú Sơn có diện tích 175,2 km², dân số năm 1999 là 7005
+				người, mật độ dân số đạt 40 người/km²:
 			</p>
 
 			<div class="row" id="vue-app2">
-				<the-hinh-anh 
-					v-for = "view in viewers"
-					v-bind:viewinfo = "view"
-					v-bind:key = "view.id"
-				></the-hinh-anh>
-			<article class="col-md-4 col-lg-3">
+				<!-- <the-hinh-anh v-for="view in viewers" v-bind:viewinfo="view" v-bind:key="view.id"></the-hinh-anh> -->
+				<article class="col-md-4 col-lg-3">
 					<div class="event-wrapper">
-						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000044.JPG" alt="">
-						<div class="event-tag"><span>2<sup>nd</sup> Feb</span></div>
+						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000044.jpg" alt="">
+						<div class="event-tag">
+							<span>2
+								<sup>nd</sup> Feb</span>
+						</div>
 					</div>
 					<div class="event-heading">Chùa Bửu Đóa</div>
 					<p class="event-intro">Nhìn làn mây trắng chơi vơi.</br>
@@ -377,8 +372,11 @@
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="event-wrapper">
-						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000045.JPG" alt="">
-						<div class="event-tag"><span>1<sup>st</sup> Jun</span></div>
+						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000045.jpg" alt="">
+						<div class="event-tag">
+							<span>1
+								<sup>st</sup> Jun</span>
+						</div>
 					</div>
 					<div class="event-heading">Lotus Flower</div>
 					<p class="event-intro">Ngàn sen hé nhụy ở trong đầm</br>
@@ -392,22 +390,27 @@
 				</article>
 				<article class="col-md-4 col-lg-3 ">
 					<div class="event-wrapper">
-						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000051.JPG" alt="">
-						<div class="event-tag"><span>23<sup>rd</sup>July</span></div>
+						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000051.jpg" alt="">
+						<div class="event-tag">
+							<span>23
+								<sup>rd</sup>July</span>
+						</div>
 					</div>
 					<div class="event-heading">Bougainvillea</div>
-					<p class="event-intro">Chi Hoa giấy là một chi trong thực vật có hoa bản địa khu vực Nam Mỹ, 
-						từ Brasil về phía tây tới Peru và về phía nam tới miền nam Argentina. 
-						Các tác giả khác nhau công nhận từ 4 tới 18 loài trong chi.</p>
+					<p class="event-intro">Chi Hoa giấy là một chi trong thực vật có hoa bản địa khu vực Nam Mỹ, từ Brasil về phía tây tới Peru và về phía nam
+						tới miền nam Argentina. Các tác giả khác nhau công nhận từ 4 tới 18 loài trong chi.</p>
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="event-wrapper">
-						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000052.JPG" alt="">
-						<div class="event-tag"><span>2<sup>nd</sup>Oct</span></div>
+						<img class="event-thumbnail thumbnail" src="src/assets/images/View/000052.jpg" alt="">
+						<div class="event-tag">
+							<span>2
+								<sup>nd</sup>Oct</span>
+						</div>
 					</div>
 					<div class="event-heading">Don't Know Flower</div>
-					<p class="event-intro">Hồng hay hường là tên gọi chung cho các loài thực vật có hoa dạng cây bụi hoặc cây leo lâu năm thuộc chi Rosa, 
-						họ Rosaceae, với hơn 100 loài với màu hoa đa dạng, phân bố từ miền ôn đới đến nhiệt đới.</p>
+					<p class="event-intro">Hồng hay hường là tên gọi chung cho các loài thực vật có hoa dạng cây bụi hoặc cây leo lâu năm thuộc chi Rosa, họ Rosaceae,
+						với hơn 100 loài với màu hoa đa dạng, phân bố từ miền ôn đới đến nhiệt đới.</p>
 				</article>
 
 			</div>
@@ -422,19 +425,19 @@
 			<div class="row">
 				<article class="col-md-4 col-lg-3">
 					<div class="destination-wrapper">
-						<img class="destination-thumbnail thumbnail" src="src/assets/images/Anniversary/000038.JPG" alt="">
+						<img class="destination-thumbnail thumbnail" src="src/assets/images/Anniversary/000038.jpg" alt="">
 						<div class="destination-banner">Hồ Xuân Hương</div>
 					</div>
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="destination-wrapper">
-						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000047.JPG" alt="">
+						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000047.jpg" alt="">
 						<div class="destination-banner">Rừng Sâu</div>
 					</div>
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="destination-wrapper">
-						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000057.JPG" alt="">
+						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000057.jpg" alt="">
 						<div class="destination-banner">Cây Đa Ngàn Tuổi</div>
 						<!-- <div class="destination-banner">Mustang</div> -->
 					</div>
@@ -447,25 +450,25 @@
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="destination-wrapper">
-						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000061.JPG" alt="">
+						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000061.jpg" alt="">
 						<div class="destination-banner">Đỉnh Chuông</div>
 					</div>
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="destination-wrapper">
-						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000063.JPG" alt="">
+						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000063.jpg" alt="">
 						<div class="destination-banner">Rêu Phong</div>
 					</div>
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="destination-wrapper">
-						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000064.JPG" alt="">
+						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000064.jpg" alt="">
 						<div class="destination-banner">Lên Non</div>
 					</div>
 				</article>
 				<article class="col-md-4 col-lg-3">
 					<div class="destination-wrapper">
-						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000065.JPG" alt="">
+						<img class="destination-thumbnail img-thumbnail" src="src/assets/images/Anniversary/000065.jpg" alt="">
 						<div class="destination-banner">Ăn Trưa</div>
 					</div>
 				</article>
@@ -504,41 +507,81 @@
 				<div class="col-md-3 footer-top-col">
 					<h5>DESTINATION</h5>
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">City</a></li>
-						<li><a href="">Hotels</a></li>
-						<li><a href="">Safari</a></li>
-						<li><a href="">Adventure</a></li>
+						<li>
+							<a href="">Home</a>
+						</li>
+						<li>
+							<a href="">City</a>
+						</li>
+						<li>
+							<a href="">Hotels</a>
+						</li>
+						<li>
+							<a href="">Safari</a>
+						</li>
+						<li>
+							<a href="">Adventure</a>
+						</li>
 					</ul>
 				</div>
 				<div class="col-md-3 footer-top-col">
 					<h5>THINGS TO DO</h5>
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">City</a></li>
-						<li><a href="">Hotels</a></li>
-						<li><a href="">Safari</a></li>
-						<li><a href="">Adventure</a></li>
+						<li>
+							<a href="">Home</a>
+						</li>
+						<li>
+							<a href="">City</a>
+						</li>
+						<li>
+							<a href="">Hotels</a>
+						</li>
+						<li>
+							<a href="">Safari</a>
+						</li>
+						<li>
+							<a href="">Adventure</a>
+						</li>
 					</ul>
 				</div>
 				<div class="col-md-3 footer-top-col">
 					<h5>EVENTS</h5>
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">City</a></li>
-						<li><a href="">Hotels</a></li>
-						<li><a href="">Safari</a></li>
-						<li><a href="">Adventure</a></li>
+						<li>
+							<a href="">Home</a>
+						</li>
+						<li>
+							<a href="">City</a>
+						</li>
+						<li>
+							<a href="">Hotels</a>
+						</li>
+						<li>
+							<a href="">Safari</a>
+						</li>
+						<li>
+							<a href="">Adventure</a>
+						</li>
 					</ul>
 				</div>
 				<div class="col-md-3 footer-top-col">
 					<ul>
 						<h5>INFORMATION</h5>
-						<li><a href="">Home</a></li>
-						<li><a href="">City</a></li>
-						<li><a href="">Hotels</a></li>
-						<li><a href="">Safari</a></li>
-						<li><a href="">Adventure</a></li>
+						<li>
+							<a href="">Home</a>
+						</li>
+						<li>
+							<a href="">City</a>
+						</li>
+						<li>
+							<a href="">Hotels</a>
+						</li>
+						<li>
+							<a href="">Safari</a>
+						</li>
+						<li>
+							<a href="">Adventure</a>
+						</li>
 					</ul>
 				</div>
 
@@ -555,7 +598,8 @@
 				</div>
 
 				<div class="col-sm-6">
-					<small class="copyright">&copy; 2018 <a class="sprouttech-link" href="https://www.manutd.com/">Manchester United</a> | Design by BuQuMi</small>
+					<small class="copyright">&copy; 2018
+						<a class="sprouttech-link" href="https://www.manutd.com/">Manchester United</a> | Design by BuQuMi</small>
 				</div>
 			</div>
 			<!-- /.footer-bottom -->
@@ -571,8 +615,8 @@
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLabel">Payment</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
 				<div class="modal-body">
 					<!-- CREDIT CARD FORM STARTS HERE -->
@@ -593,8 +637,10 @@
 											<label for="cardNumber">CARD NUMBER</label>
 											<div class="input-group">
 												<input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required
-												 autofocus />
-												<span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+												    autofocus />
+												<span class="input-group-addon">
+													<i class="fa fa-credit-card"></i>
+												</span>
 											</div>
 										</div>
 									</div>
@@ -602,7 +648,9 @@
 								<div class="row">
 									<div class="col-md-5 offset-md-1">
 										<div class="form-group">
-											<label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+											<label for="cardExpiry">
+												<span class="hidden-xs">EXPIRATION</span>
+												<span class="visible-xs-inline">EXP</span> DATE</label>
 											<input type="tel" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
 										</div>
 									</div>
@@ -648,16 +696,16 @@
 	<!-- /.credit-card-modal -->
 	<!-- Bootstrap js-->
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-	 crossorigin="anonymous"></script>
+	    crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-	 crossorigin="anonymous"></script>
+	    crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-	 crossorigin="anonymous"></script>
+	    crossorigin="anonymous"></script>
 	<!-- <script type="text/javascript" src="bower_components/df-visible/jquery.visible.js"></script> -->
 	<script type="text/javascript" src="src/assets/scripts/app.js"></script>
 
 	<!-- Thu vien de RENDER HTML -->
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 
 	<!-- Thu vien de LOAD JSON API -->
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>

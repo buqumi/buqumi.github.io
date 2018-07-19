@@ -135,29 +135,24 @@ var app1 = new Vue({
         viewers:[
             {
                 id: 1,
-                photoUrl: "src/assets/images/View/000044.JPG",
+                photoUrl: "src/assets/images/View/000044.jpg",
                 viewName: 'Chùa Bửu Đóa1',
             },
             {
                 id: 2,
-                photoUrl: "src/assets/images/View/000044.JPG",
+                photoUrl: "src/assets/images/View/000044.jpg",
                 viewName: 'Chùa Bửu Đóa2',
             },
             {
                 id: 3,
-                photoUrl: "src/assets/images/View/000044.JPG",
+                photoUrl: "src/assets/images/View/000044.jpg",
                 viewName: 'Chùa Bửu Đóa3',
             },
             {
                 id: 4,
-                photoUrl: "src/assets/images/View/000044.JPG",
+                photoUrl: "src/assets/images/View/000044.jpg",
                 viewName: 'Chùa Bửu Đóa4',
-            },
-        ],
-        viewers2:[
-            
-             'ashdaijfaklfhajklsdfhadjkghdjkghdfjkgdhf'
-         
+            }
         ]
     }
 })
