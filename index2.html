@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>baitap-view-nasa</title>
+        <link rel="stylesheet" href="src/assets/css/nasa.css">
+        <link rel="stylesheet" href="src/assets/css/normalize.css">
+    </header>
+    <body>
+        <div class="containternasa" id="vue_app">
+                <the-bai-bao-nasa
+                v-for = "dataObj in NasaData"
+                v-bind:imagininfo = "dataObj"
+                v-bind:key = "dataObj.id"
+            ></the-bai-bao-nasa> 
+
+        <div id="titlenasa"></div>
+        <div id="headernasa">
+            <div class="copyright">author</div>
+        </div>
+
+        <div id="contentnasa">
+            <div id="datetime">
+            </div>
+        </div>
+        <button id="prenasa">Previous</button>
+        <button id="nextnasa">Next</button>
+    </div>
+ 
+ 
+
+
+
+
+        <script type="text/javascript" src="src/assets/scripts/nasa.js"></script>
+        <div id="container-nasa"
+            v-for="dataDemo in dataNasa "
+            v-bind:nasainfodemo="dataDemo"
+            v-bind:key="dataDemo.id"
+        >
+            
+        </div>
+    </body>
+</html>
