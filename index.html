@@ -245,6 +245,12 @@
 		</section>
 		<!-- / deals-and-packages section-->
 
+		<section id="things-to-do">
+			<h3>API của NYT em mượn về chơi đỡ vài ngày</h3>
+			<p>em chỉ mượn chứ không lấy, lấy cũng kệ em. ahihi </p>
+			<div class="row" id="vue-app">
+
+		<the-bai-bao v-for="dataObj in NYTimesData" v-bind:imagininfo="dataObj" v-bind:key="dataObj.id"></the-bai-bao>
 		<!-- thins-to-do section-->
 		<section id="things-to-do">
 			<h3>Manchester United</h3>
@@ -252,8 +258,6 @@
 				Anh. Câu lạc bộ đang chơi tại Giải bóng đá Ngoại hạng Anh, giải đấu hàng đầu trong hệ thống bóng đá Anh.</p>
 			<div class="row" id="vue-app">
 				<!-- <the-cau-thu v-bind:playerinfo="players"></the-cau-thu> -->
-
-				<the-bai-bao v-for="dataObj in NYTimesData" v-bind:imagininfo="dataObj" v-bind:key="dataObj.id"></the-bai-bao>
 
 				<!-- <the-cau-thu 
 					v-for="player in players"
